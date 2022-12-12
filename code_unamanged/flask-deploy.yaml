@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: tasksapp
-          image: sanish/demoapp
+          image: sanish/demoapp:1.0.0
           ports:
             - containerPort: 5000
           imagePullPolicy: Always
