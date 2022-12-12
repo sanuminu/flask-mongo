@@ -42,4 +42,4 @@ spec:
   ports:
     - port: 8081
       targetPort: 5000
-  type: NodePort
+  type: ClusterIP 
